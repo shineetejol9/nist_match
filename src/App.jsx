@@ -5,7 +5,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Header from "./components/Header.jsx";
 import HeroSection from "./components/HeroSection.jsx";
 import CustomCursor from "./components/CustomCursor.jsx";
-import Aboutsection from "./components/Aboutsection.jsx";
+import AboutSection from "./components/AboutSection.jsx";
 import ProjectsSection from "./components/ProjectsSection.jsx";
 import ContactSection from "./components/ContactSection.jsx";
 
@@ -31,7 +31,7 @@ export default function App() {
       <CustomCursor />
       <Header />
       <HeroSection />
-      <Aboutsection />
+      <AboutSection />
       <ProjectsSection />
       <ContactSection />
       
