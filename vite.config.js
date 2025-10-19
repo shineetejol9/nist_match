@@ -9,5 +9,8 @@ export default defineConfig({
     react()
 
   ],
+<<<<<<< HEAD
   base: process.env.VITE_BASE_PATH || "/nist_match",
+=======
+>>>>>>> temp-backup
 })

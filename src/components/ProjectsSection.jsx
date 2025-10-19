@@ -3,6 +3,11 @@ import { useRef, useEffect } from 'react';
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { SlShareAlt } from "react-icons/sl";
+<<<<<<< HEAD
+=======
+import { motion } from "framer-motion";
+
+>>>>>>> temp-backup
 
 
 const ProjectsSection = () => {
@@ -168,11 +173,19 @@ const ProjectsSection = () => {
             })
 
             // image scale and opacity animation
+<<<<<<< HEAD
             t1.fromTo(image, {scale: 0, rotate: -20, },{scale: 1, rotate: 1, duration: 0.5, })
 
             // title animation if it exists
             if (imageTitle){
                 t1.fromTo(imageTitle, {y: 30, }, {y: -100, duration: 0.3,}, 0.2)
+=======
+            t1.fromTo(image, { scale: 0, rotate: -20, }, { scale: 1, rotate: 1, duration: 0.5, })
+
+            // title animation if it exists
+            if (imageTitle) {
+                t1.fromTo(imageTitle, { y: 30, }, { y: -100, duration: 0.3, }, 0.2)
+>>>>>>> temp-backup
             }
 
         })
@@ -225,6 +238,20 @@ const ProjectsSection = () => {
                     ))}
                 </div>
             </div>
+<<<<<<< HEAD
+=======
+
+            <div className="mt-16 flex justify-center">
+                <motion.button
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                    className="px-6 py-3 rounded-xl bg-gradient-to-r from-purple-500 to-pink-500 text-white font-bold shadow-lg hover:shadow-xl transition-all duration-300"
+                    onClick={() => window.location.href = "/blank"}
+                >
+                    Click Me
+                </motion.button>
+            </div>
+>>>>>>> temp-backup
         </section>
     );
 };
